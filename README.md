@@ -2,6 +2,13 @@
 
 Hangeul Town is a smartphone Android learning game where foreign learners discover how Hangul syllables are assembled, then practice real Korean typing through short game stages.
 
+## Screenshots
+
+<p>
+  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town starter course building na" width="260" />
+  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town first words apple perfect result" width="260" />
+</p>
+
 The first playable slice focuses on:
 
 - real-time Hangul jamo composition
