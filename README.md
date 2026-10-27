@@ -50,3 +50,32 @@ Hangeul Town은 외국인 학습자가 한글이 조립되는 원리를 게임�
 ```powershell
 .\gradlew.bat connectedDebugAndroidTest
 ```
+
+---
+
+## English
+
+Hangeul Town is an Android phone app for learners of Korean to explore how Hangul letters are assembled through game-like challenges and practice typing Korean.
+
+### Features
+
+- Real-time Hangul composition from individual consonants and vowels, using an in-app keyboard based on the two-set layout.
+- Merge animations that combine letters into syllables and words.
+- Beginner word challenges with emoji, English meanings, and romanization hints.
+- XP, combos, stage rewards, and Korean pronunciation via Android TextToSpeech.
+
+The first playable version covers 가, 나, 사과 (apple), 우유 (milk), 커피 (coffee), and 바나나 (banana). Completing all stages currently yields 950 XP and a six-hit combo. Screenshots are shown above.
+
+### Technology and build
+
+The app uses Kotlin, Jetpack Compose, Material 3, Android ViewModel and StateFlow, and Android TextToSpeech.
+
+```powershell
+.\gradlew.bat testDebugUnitTest assembleDebug
+```
+
+To run connected Android tests on a phone emulator:
+
+```powershell
+.\gradlew.bat connectedDebugAndroidTest
+```
