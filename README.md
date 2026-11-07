@@ -6,6 +6,13 @@
 
 Hangeul Town は、ハングルの組み立てをゲーム感覚で学び、韓国語のタイピングを練習できる Android スマートフォンアプリです。
 
+### スクリーンショット
+
+<p>
+  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town starter course" width="260" />
+  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town first words challenge" width="260" />
+</p>
+
 ### 機能
 
 - 子音と母音から文字をリアルタイムに組み立てる、2ボル式のアプリ内キーボード
@@ -32,6 +39,13 @@ Kotlin、Jetpack Compose、Material 3、Android ViewModel、StateFlow、Android 
 ## English
 
 Hangeul Town is an Android phone app for learners of Korean to explore how Hangul letters are assembled through game-like challenges and practice typing Korean.
+
+### Screenshots
+
+<p>
+  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town starter course" width="260" />
+  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town first words challenge" width="260" />
+</p>
 
 ### Features
 
