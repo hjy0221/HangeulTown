@@ -4,33 +4,52 @@
 
 ## 日本語
 
-Hangeul Town は、ハングルの組み立てをゲーム感覚で学び、韓国語のタイピングを練習できる Android スマートフォンアプリです。
+Hangeul Townは、外国人学習者がハングルが組み立てられる原理をゲームのように学び、実際の韓国語タイピングまで練習できるようにしたスマートフォンAndroidアプリです。
 
-### スクリーンショット
+## スクリーンショット
 
 <p>
-  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town starter course" width="260" />
-  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town first words challenge" width="260" />
+  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town スターターコースで私を組み立てる画面" width="260" />
+  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town 最初の単語りんご入力成功画面" width="260" />
 </p>
 
-### 機能
+## コア機能
 
-- 子音と母音から文字をリアルタイムに組み立てる、2ボル式のアプリ内キーボード
-- 字母を音節・単語にまとめるアニメーション
-- 絵文字、英語の意味、ローマ字のヒントを使う初級単語チャレンジ
-- XP、コンボ、ステージ報酬、Android TextToSpeech による韓国語の発音
+- 文字入力に応じて文字がリアルタイムで組み立てられるハングル組み合わせシステム
+- 二重構造をベースにしたアプリ内ハングルキーボード
+- 字母が合わされ音節と単語になるマージアニメーション
+- 絵文字、英語の意味、ローマ字の発音ヒントを活用した初級単語チャレンジ
+- XP、コンボ、ステージクリア報酬
+- Android TextToSpeechベースの韓国語の発音を再生
 
-最初のプレイ可能版では 가、나、사과、우유、커피、바나나 を学びます。全ステージを完了すると現在は 950 XP と6コンボに到達します。スクリーンショットは韓国語セクションにあります。
+## 現在プレイ可能なステージ
 
-### 技術とビルド
+現在の最初のプレイヤーブルバージョンでは、次の文字と単語を学習します。
 
-Kotlin、Jetpack Compose、Material 3、Android ViewModel、StateFlow、Android TextToSpeech を使用します。
+- 秋
+- 私
+- りんご
+- ミルク
+- コーヒー
+- バナナ
+
+ステージを最後まで完了すると、現在の基準950 XPと6コンボに到達します。
+
+## 技術スタック
+
+- Kotlin
+- Jetpack Compose
+- Material 3
+- Android ViewModelとStateFlow
+- Android TextToSpeech
+
+## ビルド
 
 ```powershell
 .\gradlew.bat testDebugUnitTest assembleDebug
 ```
 
-スマートフォンエミュレーターで接続テストを実行するには:
+スマートフォンエミュレータでAndroid接続テストを実行するには、次のコマンドを使用します。
 
 ```powershell
 .\gradlew.bat connectedDebugAndroidTest
@@ -38,33 +57,52 @@ Kotlin、Jetpack Compose、Material 3、Android ViewModel、StateFlow、Android 
 
 ## English
 
-Hangeul Town is an Android phone app for learners of Korean to explore how Hangul letters are assembled through game-like challenges and practice typing Korean.
+Hangeul Town is a smartphone Android app that allows foreign learners to learn how the Korean alphabet is assembled in a game-like manner and even practice actual Korean typing.
 
-### Screenshots
+## Screenshot
 
 <p>
-  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town starter course" width="260" />
-  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town first words challenge" width="260" />
+  <img src="docs/screenshots/starter-build-na.png" alt="Screen of assembling me in the Hangeul Town starter course" width="260" />
+  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town first word apple input success screen" width="260" />
 </p>
 
-### Features
+## Core features
 
-- Real-time Hangul composition from individual consonants and vowels, using an in-app keyboard based on the two-set layout.
-- Merge animations that combine letters into syllables and words.
-- Beginner word challenges with emoji, English meanings, and romanization hints.
-- XP, combos, stage rewards, and Korean pronunciation via Android TextToSpeech.
+- Hangul combination system that assembles letters in real time according to alphabet input
+- Korean keyboard inside the app based on a two-set structure
+- Merge animation where letters are combined to form syllables and words
+- Beginner word challenge using emojis, English meanings, and Roman alphabet pronunciation hints
+- XP, combo, stage clear rewards
+- Korean pronunciation playback based on Android TextToSpeech
 
-The first playable version covers 가, 나, 사과 (apple), 우유 (milk), 커피 (coffee), and 바나나 (banana). Completing all stages currently yields 950 XP and a six-hit combo. Screenshots are shown above.
+## Currently playable stages
 
-### Technology and build
+Currently in the first playable version, you learn the following letters and words:
 
-The app uses Kotlin, Jetpack Compose, Material 3, Android ViewModel and StateFlow, and Android TextToSpeech.
+- Go
+- me
+- apple
+- milk
+- coffee
+- Banana
+
+Completing the stage to the end will currently net you 950 XP and 6 combos.
+
+## Technology Stack
+
+- Kotlin
+- Jetpack Compose
+-Material 3
+- Android ViewModel and StateFlow
+-Android TextToSpeech
+
+## Build
 
 ```powershell
 .\gradlew.bat testDebugUnitTest assembleDebug
 ```
 
-To run connected Android tests on a phone emulator:
+To run the Android connectivity test on a smartphone emulator, use the following command:
 
 ```powershell
 .\gradlew.bat connectedDebugAndroidTest
