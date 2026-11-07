@@ -9,8 +9,8 @@ Hangeul Townは、外国人学習者がハングルが組み立てられる原�
 ## スクリーンショット
 
 <p>
-  <img src="docs/screenshots/starter-build-na.png" alt="Hangeul Town スターターコースで私を組み立てる画面" width="260" />
-  <img src="docs/screenshots/first-words-apple-perfect.png" alt="Hangeul Town 最初の単語りんご入力成功画面" width="260" />
+  <img src="docs/screenshots/starter-build-na-ja.png" alt="Hangeul Town スターターコースで私を組み立てる画面" width="260" />
+  <img src="docs/screenshots/first-words-apple-perfect-ja.png" alt="Hangeul Town 最初の単語りんご入力成功画面" width="260" />
 </p>
 
 ## コア機能
