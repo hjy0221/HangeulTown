@@ -4,8 +4,6 @@
 
 ## 日本語
 
-[日本語](https://github.com/hjy0221/HangeulTown#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/HangeulTown#english) · [한국어](https://github.com/hjy0221/HangeulTown#%ED%95%9C%EA%B5%AD%EC%96%B4)
-
 Hangeul Townは、外国人学習者がハングルが組み立てられる原理をゲームのように学び、実際の韓国語タイピングまで練習できるようにしたスマートフォンAndroidアプリです。
 
 ## スクリーンショット
@@ -59,8 +57,6 @@ Hangeul Townは、外国人学習者がハングルが組み立てられる原�
 
 ## English
 
-[日本語](https://github.com/hjy0221/HangeulTown#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/HangeulTown#english) · [한국어](https://github.com/hjy0221/HangeulTown#%ED%95%9C%EA%B5%AD%EC%96%B4)
-
 Hangeul Town is a smartphone Android app that allows foreign learners to learn how the Korean alphabet is assembled in a game-like manner and even practice actual Korean typing.
 
 ## Screenshot
@@ -113,8 +109,6 @@ To run the Android connectivity test on a smartphone emulator, use the following
 ```
 
 ## 한국어
-
-[日本語](https://github.com/hjy0221/HangeulTown#%E6%97%A5%E6%9C%AC%E8%AA%9E) · [English](https://github.com/hjy0221/HangeulTown#english) · [한국어](https://github.com/hjy0221/HangeulTown#%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 Hangeul Town은 외국인 학습자가 한글이 조립되는 원리를 게임처럼 배우고, 실제 한국어 타이핑까지 연습할 수 있도록 만든 스마트폰 Android 앱입니다.
 
